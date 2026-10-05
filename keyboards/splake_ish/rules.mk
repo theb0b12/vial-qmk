@@ -1,0 +1,14 @@
+# Copyright 2026 theb0b
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+CONSOLE_ENABLE = yes
+
+MCU = RP2040
+BOOTLOADER = rp2040
+# COMBO_ENABLE = no
+SERIAL_DRIVER = vendor
+
+RGBLIGHT_ENABLE = yes
+RGBLIGHT_SPLIT = yes
+RGBLIGHT_DRIVER = ws2812
+WS2812_DRIVER = vendor
